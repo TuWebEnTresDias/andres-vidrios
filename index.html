@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f8f7">
+  <meta name="description" content="Andrés Vidrios: colocación de vidrios y aluminio, vidrios a medida, puertas, ventanas, espejos, mamparas, templados, barandas y mosquiteros en Rosario.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://tuwebentresdias.github.io/andres-vidrios/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Andrés Vidrios | Vidriería y aluminio en Rosario">
+  <meta property="og:description" content="Colocación de vidrios y aluminio, trabajos a medida y aberturas. Consultas directas por WhatsApp.">
+  <meta property="og:url" content="https://tuwebentresdias.github.io/andres-vidrios/">
+  <meta property="og:image" content="https://tuwebentresdias.github.io/andres-vidrios/assets/ventana-frente.webp">
+  <title>Andrés Vidrios | Vidriería y aluminio en Rosario</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #173139;
+      --muted: #60777b;
+      --deep: #102a32;
+      --teal: #087e83;
+      --teal-dark: #05656a;
+      --mint: #ccebe3;
+      --paper: #f3f8f7;
+      --white: #fff;
+      --line: #dce9e6;
+      --shadow: 0 22px 60px rgba(19, 54, 60, .11);
+      --radius: 26px;
+      --font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font); line-height: 1.55; }
+    a { color: inherit; }
+    img { display: block; max-width: 100%; }
+    .wrap { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
+    .site-header { position: sticky; z-index: 10; top: 0; border-bottom: 1px solid rgba(220,233,230,.8); background: rgba(243,248,247,.88); backdrop-filter: blur(16px); }
+    .nav-row { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; font-weight: 800; letter-spacing: -.035em; }
+    .brand-mark { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 14px; background: var(--deep); color: var(--mint); font-size: 15px; letter-spacing: -.06em; }
+    .brand-name { font-size: 15px; }
+    .brand-name small { display: block; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 30px; }
+    .nav-links a { text-decoration: none; font-size: 13px; font-weight: 650; color: #405d62; transition: color .2s; }
+    .nav-links a:hover { color: var(--teal); }
+    .nav-links .nav-cta { padding: 12px 17px; border-radius: 999px; background: var(--teal); color: white; }
+    .nav-links .nav-cta:hover { background: var(--teal-dark); color: white; }
+    .menu-toggle { display: none; border: 1px solid var(--line); background: white; color: var(--ink); border-radius: 12px; min-width: 44px; min-height: 44px; font: inherit; font-size: 21px; cursor: pointer; }
+    .hero { overflow: hidden; padding: 74px 0 86px; background: radial-gradient(ellipse at 70% 8%, rgba(204,235,227,.75), transparent 38%), var(--paper); }
+    .hero-grid { display: grid; grid-template-columns: 1fr .92fr; align-items: center; gap: 68px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; margin: 0 0 20px; color: var(--teal-dark); font-size: 11px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+    .eyebrow::before { content: ""; width: 24px; height: 2px; border-radius: 2px; background: var(--teal); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { max-width: 670px; margin-bottom: 20px; font-size: clamp(42px, 6vw, 72px); line-height: .99; letter-spacing: -.065em; }
+    h1 span { color: var(--teal); }
+    .hero-copy { max-width: 510px; margin-bottom: 29px; color: var(--muted); font-size: 17px; }
+    .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .button { min-height: 50px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 0 20px; border-radius: 999px; text-decoration: none; font-size: 14px; font-weight: 750; transition: transform .2s, background .2s, box-shadow .2s; }
+    .button:hover { transform: translateY(-2px); }
+    .button-primary { background: var(--teal); color: white; box-shadow: 0 10px 24px rgba(8,126,131,.19); }
+    .button-primary:hover { background: var(--teal-dark); }
+    .button-quiet { background: white; color: var(--ink); border: 1px solid var(--line); }
+    .button svg { width: 17px; height: 17px; }
+    .hero-note { display: flex; align-items: center; gap: 10px; margin-top: 24px; color: var(--muted); font-size: 12px; font-weight: 600; }
+    .hero-note svg { width: 17px; height: 17px; color: var(--teal); }
+    .hero-visual { position: relative; min-height: 475px; }
+    .hero-photo { position: absolute; inset: 0 20px 20px 24px; overflow: hidden; border-radius: 48% 48% 28px 28px; background: #d9e9e6; box-shadow: var(--shadow); }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+    .photo-label { position: absolute; left: 0; bottom: 58px; display: flex; align-items: center; gap: 12px; max-width: 238px; padding: 15px 18px; border: 1px solid rgba(255,255,255,.8); border-radius: 17px; background: rgba(255,255,255,.93); box-shadow: 0 14px 30px rgba(19,54,60,.13); }
+    .label-dot { width: 10px; height: 10px; flex: 0 0 auto; border-radius: 50%; background: #39a98c; box-shadow: 0 0 0 5px #e1f3ec; }
+    .photo-label strong { display: block; font-size: 12px; }
+    .photo-label span { display: block; color: var(--muted); font-size: 11px; }
+    .hero-orbit { position: absolute; right: -20px; top: 4px; width: 110px; height: 110px; border: 1px solid rgba(8,126,131,.25); border-radius: 50%; }
+    .hero-orbit::after { content: ""; position: absolute; right: 14px; bottom: 15px; width: 16px; height: 16px; border-radius: 50%; background: #efa86a; box-shadow: 0 0 0 8px rgba(239,168,106,.18); }
+    .section { padding: 92px 0; }
+    .section-white { background: white; }
+    .section-head { max-width: 680px; margin-bottom: 36px; }
+    .section-head h2 { margin-bottom: 12px; font-size: clamp(32px, 4vw, 48px); line-height: 1.06; letter-spacing: -.055em; }
+    .section-head p { margin-bottom: 0; color: var(--muted); font-size: 15px; }
+    .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .service-card { min-height: 160px; padding: 21px; border: 1px solid var(--line); border-radius: 19px; background: #fbfdfc; transition: transform .2s, box-shadow .2s, border-color .2s; }
+    .service-card:hover { transform: translateY(-4px); border-color: #b5d9d1; box-shadow: 0 14px 34px rgba(19,54,60,.08); }
+    .service-icon { width: 42px; height: 42px; display: grid; place-items: center; margin-bottom: 21px; border-radius: 14px; background: #e7f4f0; color: var(--teal); }
+    .service-icon svg { width: 21px; height: 21px; }
+    .service-card h3 { margin: 0 0 5px; font-size: 15px; letter-spacing: -.02em; }
+    .service-card p { margin: 0; color: var(--muted); font-size: 12px; }
+    .work-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+    .work-heading .section-head { margin-bottom: 30px; }
+    .gallery { display: grid; grid-template-columns: 1.15fr .85fr 1fr; grid-auto-rows: 215px; gap: 14px; }
+    .work-card { position: relative; overflow: hidden; border-radius: 20px; background: #e0ebe8; }
+    .work-card:first-child { grid-row: span 2; }
+    .work-card:nth-child(4) { grid-column: span 2; }
+    .work-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+    .work-card:hover img { transform: scale(1.035); }
+    .work-caption { position: absolute; inset: auto 12px 12px; width: fit-content; max-width: calc(100% - 24px); padding: 8px 12px; border: 1px solid rgba(255,255,255,.65); border-radius: 999px; background: rgba(255,255,255,.92); color: var(--ink); font-size: 11px; font-weight: 750; backdrop-filter: blur(8px); }
+    .area-panel { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 50px; overflow: hidden; padding: 45px; border-radius: var(--radius); background: var(--deep); color: white; }
+    .area-panel h2 { margin: 0 0 12px; font-size: clamp(30px, 4vw, 44px); line-height: 1.04; letter-spacing: -.055em; }
+    .area-panel p { margin: 0; color: #bdd2d1; font-size: 14px; }
+    .area-detail { display: flex; align-items: flex-start; gap: 15px; padding: 17px 0; border-bottom: 1px solid rgba(255,255,255,.15); }
+    .area-detail:last-child { border-bottom: 0; }
+    .area-detail svg { width: 21px; height: 21px; flex: 0 0 auto; color: #76d6bf; }
+    .area-detail strong { display: block; margin-bottom: 2px; font-size: 14px; }
+    .area-detail span { display: block; color: #bdd2d1; font-size: 12px; }
+    .faq-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: 72px; }
+    .faq-grid .section-head { margin: 0; }
+    .faq-list { border-top: 1px solid var(--line); }
+    details { border-bottom: 1px solid var(--line); }
+    summary { position: relative; padding: 20px 32px 20px 0; list-style: none; cursor: pointer; font-size: 14px; font-weight: 750; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; position: absolute; right: 2px; top: 14px; color: var(--teal); font-size: 22px; font-weight: 400; }
+    details[open] summary::after { content: "−"; }
+    details p { max-width: 570px; margin: -2px 0 20px; color: var(--muted); font-size: 13px; }
+    .contact { padding: 0 0 86px; background: white; }
+    .contact-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 42px; align-items: center; padding: 44px; border-radius: var(--radius); background: #e8f4f0; }
+    .contact-panel h2 { max-width: 500px; margin: 0 0 14px; font-size: clamp(32px, 4vw, 47px); line-height: 1.02; letter-spacing: -.06em; }
+    .contact-panel p { max-width: 440px; margin: 0; color: var(--muted); font-size: 14px; }
+    .contact-list { display: grid; gap: 10px; }
+    .contact-item { display: flex; align-items: center; gap: 13px; min-height: 58px; padding: 11px 14px; border: 1px solid rgba(8,126,131,.11); border-radius: 15px; background: rgba(255,255,255,.75); text-decoration: none; }
+    .contact-item svg { width: 19px; height: 19px; flex: 0 0 auto; color: var(--teal); }
+    .contact-item span { display: block; color: var(--muted); font-size: 10px; }
+    .contact-item strong { display: block; font-size: 13px; overflow-wrap: anywhere; }
+    .contact-actions { margin-top: 18px; }
+    footer { padding: 27px 0; background: var(--deep); color: white; }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    footer .brand-mark { background: #23454c; }
+    footer .brand-name small { color: #a5bebb; }
+    .footer-copy { margin: 0; color: #a5bebb; font-size: 11px; text-align: right; }
+    .floating-wa { position: fixed; z-index: 8; right: 22px; bottom: 22px; display: grid; width: 58px; height: 58px; place-items: center; border: 3px solid white; border-radius: 50%; background: #15966f; color: white; box-shadow: 0 8px 28px rgba(14,73,61,.25); transition: transform .2s; }
+    .floating-wa:hover { transform: translateY(-3px) scale(1.03); }
+    .floating-wa svg { width: 25px; height: 25px; }
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @media (max-width: 900px) {
+      .hero-grid { gap: 32px; }
+      .hero-visual { min-height: 405px; }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .faq-grid { gap: 38px; }
+      .area-panel { gap: 30px; padding: 36px; }
+    }
+    @media (max-width: 680px) {
+      .wrap { width: min(100% - 30px, 520px); }
+      .nav-row { min-height: 68px; }
+      .menu-toggle { display: grid; place-items: center; }
+      .nav-links { position: absolute; top: 68px; left: 0; right: 0; display: none; align-items: stretch; gap: 0; padding: 8px 15px 16px; border-bottom: 1px solid var(--line); background: rgba(243,248,247,.98); }
+      .nav-links.open { display: flex; flex-direction: column; }
+      .nav-links a { padding: 13px 12px; }
+      .nav-links .nav-cta { margin-top: 6px; text-align: center; }
+      .hero { padding: 51px 0 59px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 28px; }
+      h1 { font-size: clamp(43px, 13vw, 60px); }
+      .hero-copy { font-size: 15px; }
+      .hero-visual { min-height: min(105vw, 440px); }
+      .hero-photo { inset: 0 10px 14px 22px; border-radius: 47% 47% 22px 22px; }
+      .photo-label { bottom: 39px; max-width: 215px; }
+      .hero-orbit { right: -3px; width: 78px; height: 78px; }
+      .section { padding: 68px 0; }
+      .section-head { margin-bottom: 27px; }
+      .services-grid { gap: 10px; }
+      .service-card { min-height: 145px; padding: 16px; }
+      .service-icon { width: 38px; height: 38px; margin-bottom: 16px; }
+      .work-heading { display: block; }
+      .gallery { grid-template-columns: 1fr 1fr; grid-auto-rows: 165px; gap: 10px; }
+      .work-card:first-child { grid-row: span 2; }
+      .work-card:nth-child(4) { grid-column: auto; }
+      .work-caption { inset: auto 8px 8px; max-width: calc(100% - 16px); padding: 7px 10px; font-size: 10px; }
+      .area-panel { grid-template-columns: 1fr; gap: 20px; padding: 29px 23px; }
+      .faq-grid { grid-template-columns: 1fr; gap: 25px; }
+      .contact { padding-bottom: 60px; }
+      .contact-panel { grid-template-columns: 1fr; gap: 25px; padding: 29px 22px; }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+      .footer-copy { text-align: left; }
+      .floating-wa { right: 15px; bottom: 15px; width: 54px; height: 54px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-row">
+      <a class="brand" href="#inicio" aria-label="Andrés Vidrios, inicio">
+        <span class="brand-mark" aria-hidden="true">AV</span>
+        <span class="brand-name">Andrés Vidrios<small>Vidriería y aluminio</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <nav class="nav-links" id="nav-links" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#zona">Zona de atención</a>
+        <a class="nav-cta" href="https://wa.me/5493413197020?text=Hola%2C%20quer%C3%ADa%20consultar%20por%20un%20trabajo%20de%20vidrier%C3%ADa." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <p class="eyebrow">Andrés Vidrios · Rosario</p>
+          <h1>Vidrios y aluminio <span>a medida.</span></h1>
+          <p class="hero-copy">Colocación de vidrios y aluminios, aberturas y soluciones para tu casa o local.</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://wa.me/5493413197020?text=Hola%2C%20quer%C3%ADa%20consultar%20por%20un%20trabajo%20de%20vidrier%C3%ADa." target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4.1A8 8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 9.2c.7 2 2.1 3.4 4.2 4.2l1.2-1 2 .9c-.2 1.3-1.2 2-2.4 2-3.7-.2-6.9-3.4-7-7.1 0-1.2.7-2.2 2-2.4l.9 2-1 1.4Z" fill="currentColor"/></svg>
+              Escribir por WhatsApp
+            </a>
+            <a class="button button-quiet" href="#trabajos">Ver trabajos</a>
+          </div>
+          <div class="hero-note">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.8"/></svg>
+            Atención en Rosario, zona oeste
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-photo"><img src="assets/ventana-frente.webp" alt="Trabajo de vidriería y aluminio realizado por Andrés" fetchpriority="high"></div>
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <div class="photo-label"><i class="label-dot" aria-hidden="true"></i><div><strong>Vidrios y aberturas</strong><span>Trabajos a medida</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="servicios">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Qué hacemos</p>
+          <h2>Soluciones en vidrio y aluminio</h2>
+          <p>Estos son los trabajos que realiza Andrés. Escribile para consultar por el que necesitás.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="1" stroke="currentColor" stroke-width="1.7"/><path d="M12 3v18M4 9h8m0 0h8" stroke="currentColor" stroke-width="1.5"/></svg></div><h3>Vidrios a medida</h3><p>Corte según las medidas de tu espacio.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 21V4h16v17M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Puertas y ventanas</h3><p>Aberturas para distintos ambientes.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 3.5v17M3.5 12h17" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Espejos</h3><p>Una opción funcional y decorativa.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.5 5h17M5 5v14h14V5M5 11h14M12 5v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div><h3>Mamparas</h3><p>Para completar el espacio del baño.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h14v16H5zM8 7h8v10H8z" stroke="currentColor" stroke-width="1.6"/><path d="M8 7l8 10" stroke="currentColor" stroke-width="1.2"/></svg></div><h3>Vidrios templados</h3><p>Consultá por esta alternativa de vidrio.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19h16M6 19V8m12 11V8M6 8h12M9 8V5m6 3V5M8 13h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Barandas</h3><p>Trabajos en vidrio para barandas.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M9 4v16M14 4v16M4 14h16" stroke="currentColor" stroke-width="1.2"/></svg></div><h3>Mosquiteros</h3><p>Para puertas y ventanas.</p></article>
+          <article class="service-card reveal"><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20 20 4M6 7h5M13 17h5M7 4v6m10 4v6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Colocación</h3><p>Colocación de vidrios y aluminios.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trabajos">
+      <div class="wrap">
+        <div class="work-heading">
+          <div class="section-head reveal">
+            <p class="eyebrow">Galería</p>
+            <h2>Algunos de sus trabajos</h2>
+            <p>Imágenes compartidas por Andrés.</p>
+          </div>
+          <a class="button button-quiet" href="https://wa.me/5493413197020?text=Hola%2C%20vi%20tus%20trabajos%20en%20la%20web%20y%20quer%C3%ADa%20hacerte%20una%20consulta." target="_blank" rel="noopener noreferrer" style="margin-bottom:30px">Consultar por un trabajo</a>
+        </div>
+        <div class="gallery">
+          <figure class="work-card reveal"><img src="assets/ventana-negra.webp" alt="Ventana de aluminio con marco oscuro" loading="lazy"><figcaption class="work-caption">Ventana de aluminio</figcaption></figure>
+          <figure class="work-card reveal"><img src="assets/puerta-corrediza.webp" alt="Puerta corrediza de aluminio y vidrio" loading="lazy"><figcaption class="work-caption">Puerta corrediza</figcaption></figure>
+          <figure class="work-card reveal"><img src="assets/puerta-aluminio.webp" alt="Abertura blanca de aluminio y vidrio" loading="lazy"><figcaption class="work-caption">Abertura de aluminio</figcaption></figure>
+          <figure class="work-card reveal"><img src="assets/ventana-horizontal.webp" alt="Ventana horizontal instalada en una pared" loading="lazy"><figcaption class="work-caption">Ventana horizontal</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="zona">
+      <div class="wrap">
+        <div class="area-panel reveal">
+          <div>
+            <p class="eyebrow" style="color:#8de0cb">Dónde estamos</p>
+            <h2>Vidriería en Rosario</h2>
+            <p>Andrés trabaja en la zona oeste de la ciudad. Consultá por WhatsApp para contarle qué necesitás.</p>
+          </div>
+          <div>
+            <div class="area-detail"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 10.2c0 5.3-8 11-8 11s-8-5.7-8-11a8 8 0 1 1 16 0Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.7"/></svg><div><strong>Zona de atención</strong><span>Rosario oeste, detrás del HECA</span></div></div>
+            <div class="area-detail"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><div><strong>Horario informado</strong><span>Lunes a sábado, de 8 a 17 h</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="preguntas">
+      <div class="wrap faq-grid">
+        <div class="section-head reveal">
+          <p class="eyebrow">Consultas frecuentes</p>
+          <h2>¿Tenés un proyecto?</h2>
+          <p>Escribile a Andrés y contale qué trabajo necesitás.</p>
+        </div>
+        <div class="faq-list reveal">
+          <details><summary>¿Qué trabajos realiza Andrés?</summary><p>Colocación de vidrios y aluminios, vidrios a medida, puertas, ventanas, espejos, mamparas, vidrios templados, barandas y mosquiteros.</p></details>
+          <details><summary>¿Hace vidrios a medida?</summary><p>Sí. Podés consultarle por WhatsApp y contarle las medidas o el tipo de trabajo que necesitás.</p></details>
+          <details><summary>¿En qué zona trabaja?</summary><p>Andrés está en la zona oeste de Rosario, detrás del HECA. Escribile para consultar por tu trabajo.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="wrap">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contacto directo</p>
+            <h2>Contale qué necesitás</h2>
+            <p>Escribile a Andrés para consultar por vidrios, aberturas o cualquiera de sus servicios.</p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="https://wa.me/5493413197020?text=Hola%2C%20quer%C3%ADa%20consultar%20por%20un%20trabajo%20de%20vidrier%C3%ADa." target="_blank" rel="noopener noreferrer">Enviar consulta por WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-list">
+            <a class="contact-item" href="tel:+5493413197020"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h3l1.5 4-2 1.5a15 15 0 0 0 6 6l1.5-2 4 1.5v3c0 1.1-.9 2-2 2C10.2 19 5 13.8 5 7c0-2.2.7-4 2-4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><div><span>Teléfono</span><strong>+54 9 341 319-7020</strong></div></a>
+            <a class="contact-item" href="mailto:andresgiorgio7@gmail.com"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><div><span>Correo electrónico</span><strong>andresgiorgio7@gmail.com</strong></div></a>
+            <div class="contact-item"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><div><span>Horario</span><strong>Lunes a sábado · 8 a 17 h</strong></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <a class="brand" href="#inicio" aria-label="Andrés Vidrios, volver al inicio"><span class="brand-mark" aria-hidden="true">AV</span><span class="brand-name">Andrés Vidrios<small>Rosario, Santa Fe</small></span></a>
+      <p class="footer-copy">Vidriería y aluminio · Consultas directas por WhatsApp</p>
+    </div>
+  </footer>
+  <a class="floating-wa" href="https://wa.me/5493413197020?text=Hola%2C%20quer%C3%ADa%20consultar%20por%20un%20trabajo%20de%20vidrier%C3%ADa." target="_blank" rel="noopener noreferrer" aria-label="Escribir a Andrés por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4.1A8 8 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 9.2c.7 2 2.1 3.4 4.2 4.2l1.2-1 2 .9c-.2 1.3-1.2 2-2.4 2-3.7-.2-6.9-3.4-7-7.1 0-1.2.7-2.2 2-2.4l.9 2-1 1.4Z" fill="currentColor"/></svg>
+  </a>
+  <script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("#nav-links");
+    menuButton.addEventListener("click", () => {
+      const open = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!open));
+      menuButton.setAttribute("aria-label", open ? "Abrir menú" : "Cerrar menú");
+      menuButton.textContent = open ? "☰" : "×";
+      nav.classList.toggle("open", !open);
+    });
+    nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "Abrir menú");
+      menuButton.textContent = "☰";
+      nav.classList.remove("open");
+    }));
+    if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+    } else {
+      document.querySelectorAll(".reveal").forEach(el => el.classList.add("visible"));
+    }
+  </script>
+</body>
+</html>
